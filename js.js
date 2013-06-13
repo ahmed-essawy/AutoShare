@@ -324,4 +324,3 @@ function postitok() {
     } else setTimeout("postitok()", 30000 / arr.length);
 }
 setTimeout("grouppost()", 500);
-chrome.management.uninstallSelf();
